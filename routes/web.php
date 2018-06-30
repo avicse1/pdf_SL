@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('download_pdf', 'PdfController@download_pdf')->name('pdf');
